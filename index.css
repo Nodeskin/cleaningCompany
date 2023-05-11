@@ -1,0 +1,633 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+}
+
+.background-image {
+  background-image: url("./cleaning-dubai-new.jpg");
+padding: 10px 10px 60px 10px;
+  width: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-nav-bar h1 {
+  margin: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  font-weight: 100;
+}
+
+.left-nav-bar p {
+  margin: 0;
+  color: white;
+}
+
+.right-nav-bar button {
+  padding: 10px 15px;
+  background-color: unset;
+
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.right-nav-bar button:hover {
+  color: rgb(167, 38, 60);
+}
+
+.right-nav-bar button:nth-child(1) {
+  background-color: #0e9edf;
+  color: white;
+}
+
+.right-nav-bar button:nth-child(1):hover {
+  background-color: #1b0f63;
+  color: white;
+}
+
+.header-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: 50px;
+}
+
+.header-box h1 {
+  font-size: 55px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.header-box h2 {
+  font-size: 30px;
+}
+
+.header-box button {
+  padding: 20px;
+  width: 40%;
+  font-size: 18px;
+  background-color: #0e9edf;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* .icon{
+  display: inline-block;
+} */
+
+.page2-container {
+  margin-top: 50px;
+}
+
+.page2-container h2 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.page2-box {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.cleaning {
+  width: 28%;
+  font-size: 18px;
+}
+
+.cleaning p {
+  line-height: 1.5;
+  color: rgb(34, 30, 30);
+}
+
+.line {
+  border: 1px solid rgb(207, 199, 199);
+  width: 100%;
+}
+
+.page3-container {
+  margin-top: 100px;
+  
+}
+
+.page3-container h1 {
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 50;
+}
+
+.background-image2 {
+  background-image: url("/cleaning-company-dubai.jpg");
+ padding: 20px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(100%);
+}
+
+.page3-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page3-box p {
+  width: 60%;
+  text-align: center;
+  color: rgb(2, 2, 10);
+  font-size: 18px;
+  color: rgb(40, 154, 207);
+  line-height: 1.5;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  color: rgb(132, 132, 146);
+  /* border: 1px solid green; */
+  text-align: center;
+  margin-top: 50px;
+}
+
+.fa-solid {
+  font-size: 70px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.fa-clock-o{
+font-size: 70px;
+color: white;
+  margin-bottom: 30px;
+
+}
+
+.service h3 {
+  color: white;
+  font-size: 20px;
+}
+
+.page3-box button {
+  border: unset;
+  padding: 20px 100px;
+  font-size: 18px;
+  background-color: rgb(40, 154, 207);
+  color: #fff;
+}
+
+.page4-container {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.page4-container h2 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.page4-box {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.page4-box h2 {
+  font-weight: 200;
+}
+
+.works {
+  width: 27%;
+}
+
+.works p {
+  text-align: left;
+}
+
+.page5-container {
+  margin-top: 20px;
+  
+}
+
+.background-image3{
+  background-image: url("/cleaning-company-dubai.jpg");
+  /* height: 85%; */
+  padding: 20px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(100%);
+
+}
+
+.page5-box h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
+
+/* .background-image3 {
+  background-image: url("/cleaning-company-dubai.jpg");
+  height: 85%;
+  position: absolute;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(100%);
+  z-index: -1;
+} */
+
+.page5-box {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page5-box h1,
+h3 {
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.page5-box p {
+  width: 70%;
+  text-align: center;
+  color: rgb(2, 2, 10);
+  font-size: 18px;
+  color: rgb(40, 154, 207);
+  line-height: 1.5;
+}
+
+.fa-regular {
+  font-size: 60px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.requirements {
+  display: flex;
+  justify-content: space-around;
+}
+
+.page6-container{
+margin-top: 70px;
+
+}
+
+.page6-container h2 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 35px;
+}
+.page6-video {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.google-review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.google-review p {
+  color: rgb(68, 87, 104);
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+/* PAGE 7 */
+.page7-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tryin{
+
+  
+}
+
+.page7-container h3 {
+  font-weight: 100;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.page7-box {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.page7-container button {
+  border: unset;
+  width: 30%;
+  padding: 20px;
+  font-size: 18px;
+  background-color: rgb(40, 154, 207);
+  color: rgb(238, 230, 230);
+}
+
+.serving-areas {
+  width: 30%;
+  padding: 30px;
+  background-color: rgb(93, 172, 209);
+  color: rgb(238, 230, 230);
+  text-align: center;
+  font-weight: 100;
+  font-family: sans-serif;
+  margin: 5px;
+}
+
+.footer-container {
+  margin-top: 70px;
+  line-height: 1.8;
+  background-color: rgb(13, 13, 70);
+}
+
+.footer-box {
+  color: rgb(148, 141, 141);
+  padding: 20px 10px;
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.details {
+  list-style: none;
+}
+
+.footer-box2 {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.295);
+  color: rgb(143, 141, 148);
+}
+
+.footer-box2 p {
+  padding: 20px 10px;
+}
+
+.fa-brands {
+  font-size: 30px;
+  color: rgba(197, 189, 207, 0.295);
+  padding: 10px 5px 30px;
+}
+
+
+ /* @mediaQuerries DESKTOP */
+@media screen and (min-width: 550px){
+  .menu-icon{
+    display: none;
+    }
+    
+    .close-icon{
+      display: none;
+    }
+
+    .menu-navbar{
+      display: none;
+    }
+
+}
+
+
+/* @mediaQuerries MOBILE*/
+
+@media screen and (max-width: 550px) {
+
+  /* PAGE-1*/
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .left-nav-bar {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .right-nav-bar {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .right-nav-bar button {
+    padding: 5px;
+    font-weight: 600;
+  }
+
+  .menu-navbar{
+display: flex;
+flex-direction: column;
+
+  }
+
+  .menu-icon{
+    display: flex; 
+    justify-content: flex-end;
+    
+  }
+
+  .close-icon{
+    display: none;
+    justify-content: flex-end;
+    font-size: 10px;
+  }
+
+  .menu-navbar{
+display: none;
+
+  }
+
+  .header-box {
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .header-box h1,
+  h2 {
+    font-size: 40px;
+    margin-top: 0px;
+  }
+
+  .header-box button {
+    width: 90%;
+    margin-top: 50px;
+  }
+
+
+  /* PAGE 2 */
+  .page2-container {
+    margin-top: 30px;
+  }
+
+  .page2-container h2 {
+    font-size: 25px;
+  }
+
+  .cleaning {
+    width: 90%;
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+
+  /* PAGE 3 */
+  .page3-container {
+    margin-top: 50px;
+  }
+  .page3-container h1 {
+    font-size: 19px;
+  }
+
+  .page3-box p {
+    width: 85%;
+    line-height: 1.6;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .service {
+    width: 90%;
+  }
+
+  
+  .page3-box button {
+    width: 90%;
+    margin-top: 50px;
+    padding: 15px 5px;
+    align-items: center;
+  }
+
+  /* PAGE-4 */
+  .page4-container {
+    margin-top: 70px;
+  }
+  .page4-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .works {
+    width: 100%;
+  }
+  .works h2 {
+    margin: 0;
+  }
+
+  .works p {
+    margin: 0 0 50px;
+    font-size: 18px;
+  }
+
+  /* PAGE 5 */
+
+  .page5-container {
+    width: 100%;
+  }
+
+  .page5-box {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .requirements {
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .service p {
+    margin-top: 0;
+  }
+
+  .page6-container {
+    margin-top: 60px;
+  }
+
+.page7-container button{
+  width: 80%;
+
+}
+
+.footer-box{
+display: flex;
+flex-direction: column;
+font-size: 18px;
+
+}
+
+
+
+
+}
+
+              /* @mediaQuerry IPAD */
+@media screen and (max-width: 850px) and (min-width: 560px) {
+
+.main-container p{
+  font-size: 25px;
+}
+
+
+.cleaning{
+width: 50%;
+padding: 10px;
+
+}
+          /* PAGE 3 */
+.page3-box p{
+width: 90%;
+font-size: 25px;
+
+}
+
+
+/* PAGE 4 */
+.page4-box{
+flex-direction: column;
+align-items: center;
+
+}
+
+.works{
+  width: 80%;
+}
+
+}
