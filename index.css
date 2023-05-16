@@ -3,7 +3,7 @@
 }
 
 .background-image {
-  background-image: url("../cleaningCompany/cleaning-dubai-new.jpg");
+  background-image: url("../cleaningCompany/cleaningPics/cleaning-dubai-new.jpg");
   padding: 10px 10px 60px 10px;
   width: 100%;
   object-fit: cover;
@@ -79,10 +79,6 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.icon {
-  display: inline-block;
-}
-
 .page2-container {
   margin-top: 50px;
 }
@@ -110,6 +106,12 @@
   color: rgb(34, 30, 30);
 }
 
+.cleaning img{
+  width: 285px;
+   height: 126px
+
+}
+
 .line {
   border: 1px solid rgb(207, 199, 199);
   width: 100%;
@@ -128,8 +130,8 @@
 }
 
 .background-image2 {
-  background-image: url("../cleaningCompany/cleaning-company-dubai.jpg");
-  padding: 20px;
+  background-image: url("../cleaningCompany/cleaningPics/cleaning-company-dubai.jpg");
+  padding: 20px 20px 90px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,7 +164,6 @@
   align-items: center;
   width: 25%;
   color: rgb(132, 132, 146);
-  /* border: 1px solid green; */
   text-align: center;
   margin-top: 50px;
 }
@@ -187,6 +188,7 @@
 .page3-box button {
   border: unset;
   padding: 20px 100px;
+  margin-top: 50px;
   font-size: 18px;
   background-color: rgb(40, 154, 207);
   color: #fff;
@@ -218,7 +220,7 @@
 }
 
 .works p {
-  text-align: left;
+  /* text-align: left; */
 }
 
 .page5-container {
@@ -226,8 +228,7 @@
 }
 
 .background-image3 {
-  background-image: url("../cleaningCompany/cleaning-company-dubai.jpg");
-  /* height: 85%; */
+  background-image: url("../cleaningCompany/cleaningPics/cleaning-company-dubai.jpg");
   padding: 20px 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -351,7 +352,7 @@ h3 {
 
 .footer-box {
   color: rgb(148, 141, 141);
-  padding: 20px 10px;
+  padding: 20px 20px;
   font-size: 17px;
   display: flex;
   justify-content: space-between;
@@ -361,21 +362,41 @@ h3 {
   list-style: none;
 }
 
-.footer-box2 {
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.295);
-  color: rgb(143, 141, 148);
+.footer2 {
+  background-color: #191146;
+  /* border: 1px solid red; */
 }
 
-.footer-box2 p {
-  padding: 20px 10px;
+.footer-box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 10px 5px;
+  color: rgb(148, 141, 141);
+}
+
+.copy p {
+  padding: 0 5px;
+  margin: 0;
+}
+
+.social-logo {
+  margin: 0;
+  padding: 5px;
 }
 
 .fa-brands {
-  font-size: 30px;
+  font-size: 40px;
   color: rgba(197, 189, 207, 0.295);
   padding: 10px 5px 30px;
 }
+
+
+
+
+
+
+
 
 /* @mediaQuerries DESKTOP */
 @media screen and (min-width: 550px) {
@@ -395,8 +416,6 @@ h3 {
 /* @mediaQuerries MOBILE*/
 
 @media screen and (max-width: 550px) {
-  /* PAGE-1*/
-
   .background-image {
     padding: 0 0 40px;
   }
@@ -471,23 +490,36 @@ h3 {
     font-size: 10px;
     border: 1px solid rgb(221, 218, 211);
   }
+  
   .page2-container {
     margin-top: 20px;
   }
 
-  .page2-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
+  /* .page2-box {
+  
     width: 100%;
     padding: 10px;
-  }
+  }  */
 
   .cleaning {
-    width: 100%;
-    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    font-size: 20px;
+    margin-bottom: 50px;
   }
+
+
+  .cleaning img{
+    width: 100%;
+    height: 200px;
+  }
+
+  .cleaning h3{
+
+  }
+
 
   .page3-container {
     margin-top: 50px;
@@ -501,7 +533,7 @@ h3 {
     width: 100%;
     text-align: center;
     color: rgb(2, 2, 10);
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(40, 154, 207);
     line-height: 1.5;
   }
@@ -525,20 +557,32 @@ h3 {
   }
 
   .page4-box {
+    width: 100%;
+    padding: 0 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: center;
+    /* justify-content: space-around; */
     padding: 5px;
   }
 
   .works {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
 
-  .works h2,
-  p {
+  .works h2{
     margin: 0;
+  }
+
+  .works p {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .works img {
+    width: 350px;
+    text-align: center;
   }
 
   .line {
@@ -569,6 +613,19 @@ h3 {
     font-size: 25px;
   }
 
+  .page6-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .page6-video iframe{
+    width: 90%;
+    margin-bottom: 20px;
+
+  }
+
   .serving-areas {
     width: 90vw;
     padding: 10px;
@@ -580,14 +637,14 @@ h3 {
 
   .footer-box {
     color: rgb(148, 141, 141);
-    padding: 20px 0;
     font-size: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 
-  .footer-box2 p {
+  
+  .copy p {
     padding: 10px 5px 0;
   }
 
@@ -596,23 +653,18 @@ h3 {
     color: rgba(197, 189, 207, 0.295);
     padding: 10px 5px 40px;
     margin: 0;
-  }
+  } 
 }
+
+
+
 
 /* @mediaQuerry IPAD */
 @media screen and (max-width: 850px) and (min-width: 560px) {
-  .main-container p {
-    font-size: 25px;
-  }
 
-  /* .background-image {
-    background-image: url("../cleaningCompany/cleaning-dubai-new.jpg");
-    padding: 10px 10px 60px 10px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-  } */
+  .main-container p{
+    font-size: 22px;
+  }
 
   .nav-bar {
     padding: 5px;
@@ -663,11 +715,13 @@ h3 {
   .page4-box {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    
+   
   }
 
   .page4-box h2 {
-    font-weight: 200;
+    font-weight: 400;
+    font-size: 25px;
   }
 
   .line {
@@ -677,13 +731,8 @@ h3 {
   .works {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: center;
-    width: 100%;
-  }
-
-  .works img {
-    width: 90%;
+    width: 30%;
   }
 
   .works h2 {
@@ -708,23 +757,17 @@ h3 {
     font-size: 18px;
   }
 
-  .page7-container button{
+  .page7-container button {
     padding: 10px 8px;
-    margin-top:0 ;
-
+    margin-top: 0;
   }
 
-  .footer-container{
-    height:95vh;
+  /* .footer-container {
+    height: 95vh;
+  } */
 
-    
-
-  }
-
-  .footer-box2 p{
+  .footer-box2 p {
     margin-bottom: 0;
     padding-bottom: 0;
-    
   }
-
 }
